@@ -36,7 +36,13 @@ class _SampleAppPageState extends State {
     List widgets = <Widget>[];
     for (int i = 0; i < 100; i++) {
       widgets.add(new Padding(
-          padding: new EdgeInsets.all(10.0), child: new Text("Row $i")));
+          padding: new EdgeInsets.all(10.0),
+          child: new Text("Row $i" ,
+                            style: new TextStyle( fontFamily: 'Arial, Helvetica, sans-serif' ,
+                                                  color : Colors.blue,
+                                                  fontSize : 20.0),
+
+      )));
     }
     return widgets;
   }
