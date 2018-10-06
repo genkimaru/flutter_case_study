@@ -1,6 +1,6 @@
-# hello_world
+# Flutter get started 
 
-A new Flutter application.
+Some basic flutter examples 
 
 ## Getting Started
 
